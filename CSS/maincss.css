@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+img {
+    width: 120px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: rgb(112, 12, 174);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.table-danger {
+    background-color: #f8d7da !important;
+}
+
+.table-danger {
+    background-color: #803e47 !important;
+}
+
+header>div>a {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+header>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header>div>p {
+    font-size: 15px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

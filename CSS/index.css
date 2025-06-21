@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+  }
+
+  header {
+    background-color:rgb(112, 12, 174);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .theme-toggle {
+    position: absolute;
+    top: 0.4em;
+    right: 0.5em;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+
+  .user-choice {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+
+  .user-box {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 30px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: center;
+  }
+  .user-box:hover {
+    transform: translateY(-5px);
+  }
+
+  .user-box h2 {
+    margin-bottom: 15px;
+    color:rgb(112, 12, 174);
+  }
+
+  .user-box a {
+    display: block;
+    margin: 10px 0;
+    color:rgb(112, 12, 174);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: #e0e0e0;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  footer h3 {
+    color:rgb(112, 12, 174);
+    margin-bottom: 10px;
+  }
+
+  footer p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+
+  .footer-divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 30px auto;
+    width: 60%;
+  }
+
+  .theme-toggle button {
+    background-color:rgb(112, 12, 174);
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .theme-toggle button:hover {
+    background-color:rgb(44, 0, 72);
+  }
